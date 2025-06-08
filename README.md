@@ -8,6 +8,15 @@ Build a CNN-based plant segmentation/classification model to identify **crop vs 
 Due to size constraints, only a sample of the dataset is included in this repo.  
 The full dataset (1,300 images and labels) can be downloaded from https://www.kaggle.com/datasets/ravirajsinh45/crop-and-weed-detection-data-with-bounding-boxes.
 
+📁 Note: Due to GitHub's file size constraints, only 3 sample images and corresponding labels have been included in the `data/` folder for structure reference.  
+📦 The full dataset (1,300+ images) can be downloaded from [Kaggle here](https://www.kaggle.com/datasets/ravirajsinh45/crop-and-weed-detection-data-with-bounding-boxes).
+
+📂 Project Structure:
+- `data/`: Sample structure with a few training/validation images and labels
+- `src/yolov5/`: Custom training, validation, and detection scripts
+- `src/yolov5/runs/`: Output visualizations (e.g., best.png, confusion matrix)
+
+
 ## 🧠 Model Used
 YOLOv5 (custom-trained on labeled crop/weed dataset)
 

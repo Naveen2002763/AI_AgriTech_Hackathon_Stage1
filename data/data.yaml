@@ -1,5 +1,0 @@
-train: C:/Users/Jabili N/Music/AI_AgriTech_Hackathon/data/images/train
-val: C:/Users/Jabili N/Music/AI_AgriTech_Hackathon/data/images/val
-
-nc: 2
-names: ['crop', 'weed']
